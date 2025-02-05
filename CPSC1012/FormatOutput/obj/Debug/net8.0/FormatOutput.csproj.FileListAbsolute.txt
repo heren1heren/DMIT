@@ -1,0 +1,14 @@
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/bin/Debug/net8.0/FormatOutput
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/bin/Debug/net8.0/FormatOutput.deps.json
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/bin/Debug/net8.0/FormatOutput.runtimeconfig.json
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/bin/Debug/net8.0/FormatOutput.dll
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/bin/Debug/net8.0/FormatOutput.pdb
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.AssemblyInfoInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.AssemblyInfo.cs
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.csproj.CoreCompileInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.dll
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/refint/FormatOutput.dll
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.pdb
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/FormatOutput.genruntimeconfig.cache
+/home/heren/Desktop/DMIT/CPSC1012/FormatOutput/obj/Debug/net8.0/ref/FormatOutput.dll

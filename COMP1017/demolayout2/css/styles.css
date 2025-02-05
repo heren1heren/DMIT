@@ -1,0 +1,8 @@
+header,
+article,
+footer {
+    background-color:;
+    border: 3px solid #000;
+    margin-bottom: 48px;
+    padding: 24px;
+}

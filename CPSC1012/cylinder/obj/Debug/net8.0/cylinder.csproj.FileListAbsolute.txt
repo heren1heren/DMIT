@@ -1,0 +1,14 @@
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.AssemblyInfoInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.AssemblyInfo.cs
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.csproj.CoreCompileInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/bin/Debug/net8.0/cylinder
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/bin/Debug/net8.0/cylinder.deps.json
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/bin/Debug/net8.0/cylinder.runtimeconfig.json
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/bin/Debug/net8.0/cylinder.dll
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/bin/Debug/net8.0/cylinder.pdb
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.dll
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/refint/cylinder.dll
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.pdb
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/cylinder.genruntimeconfig.cache
+/home/heren/Desktop/DMIT/CPSC1012/cylinder/obj/Debug/net8.0/ref/cylinder.dll

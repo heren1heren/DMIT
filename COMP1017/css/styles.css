@@ -1,0 +1,44 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* to start, identify the items that will need to go across a row and where the flex containers should go. */
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+}
+
+header {
+    margin: 24px 0;
+    text-align: center;
+    border-bottom: 1px solid #111;
+}
+
+section {
+    margin-bottom: 36px;
+}
+
+.margin-bottom {
+    margin-bottom: 24px;
+}
+
+.online-workshops section,
+.conferences section {
+    border: 1px solid #bbb;
+    padding: 16px;
+    box-shadow: 0 4px 12px #ddd;
+    border-radius: 3px;;
+}
+
+/* Notice the default width of these items that Flexbox gave them. Are they equal? These sections have more content in them than can fit across the 960px row, therefore Flexbox will resize them to fit but using content width, items with more content will get more space on the row. We have to resize them to make them equal width. */
+/* Using the 960px width row, the gutter space from the gap property, and the box model...  960 - 30 = 930 / 2 = 465 - 32 padding - 2 border = 431px (check if it fits in the dev tools)*/
+.online-workshops section {
+    width: 431px;
+}
+
+/* 960 - 30 gap - 30 gap = 900 / 3 = 300 - 32 padding - 2 border = 266px */
+.conferences section {
+    width: 266px;
+}

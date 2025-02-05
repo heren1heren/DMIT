@@ -1,0 +1,263 @@
+body {
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-family: "Commissioner", sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 48px;
+}
+h4 {
+    font-size: 22px;
+}
+p {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: yellowgreen;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header {
+    color: white;
+    border-radius: 25px;
+    background-color: #254c65;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 20px 31px;
+    font-weight: 700;
+}
+header nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+/*main */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+/* banner section*/
+.Edmonton-background-image-container {
+    color: white;
+    background-image: url(../img/Edmonton-communities.jpg);
+    background-repeat: no-repeat;
+    /* Background Size Property */
+    background-size: contain;
+    background-size: cover;
+    background-color: gray;
+    min-height: 295px;
+}
+
+.veil {
+    padding: 54px 90px 33px 11px;
+    background-color: rgb(37, 76, 101, 0.6);
+    border-radius: 25px;
+}
+/* blog section */
+.blog-section {
+    color: #254c65;
+    border-radius: 25px;
+    min-height: 700px;
+    background-color: #eaeef0;
+    padding: 14px 28px 27px 26px;
+}
+.blog-section h2 {
+    margin-bottom: 40px;
+}
+.blog-section article {
+    padding: 30px 21px 20px 15px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+}
+
+/*community section*/
+.community-garden-section {
+    color: #254c65;
+    width: 866px;
+    min-height: 441px;
+    display: flex;
+    gap: 20px;
+}
+.community-garden-section .btn {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 0px 0px 0px 20px;
+    background-color: #254c65;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+.community-garden-section table {
+    width: 560px;
+}
+
+.community-garden-section .text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+footer {
+    background-color: #254c65;
+    color: white;
+    border-radius: 25px;
+    min-height: 360px;
+    padding-bottom: 20px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+footer ul {
+    width: 380px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+hr {
+    width: 416px;
+    border-top: 1px solid white;
+}
+footer .social-links {
+    display: flex;
+    gap: 40px;
+}
+footer h2 {
+    font-size: 38px;
+}
+
+/* about page*/
+
+.what-we-offer-section {
+    color: #254c65;
+    border-radius: 25px;
+
+    background-color: white;
+    padding: 14px 28px 27px 26px;
+}
+.what-we-offer-flex-container {
+    display: flex;
+    gap: 20px;
+}
+.what-we-offer-section article {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 325px;
+    background-color: #eaeef0;
+    border-radius: 25px;
+}
+
+.events-2024 {
+    background-color: #eaeef0;
+    color: #254c65;
+    padding: 20px;
+    border-radius: 25px;
+}
+.events-2024-flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    border-radius: 25px;
+}
+.events-2024-flex-container article {
+    width: 420px;
+    height: 497px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.events-2024-flex-container article img {
+    align-self: center;
+}
+.about-banner {
+    color: white;
+    background-image: url(../img/about-banner.png);
+    background-repeat: no-repeat;
+    /* Background Size Property */
+    background-size: contain;
+    background-size: cover;
+    background-color: gray;
+    min-height: 295px;
+}
+
+.member-image-background {
+    color: white;
+    background-image: url(../img/member-banner.png);
+    background-repeat: no-repeat;
+    /* Background Size Property */
+    background-size: contain;
+    background-size: cover;
+    background-color: gray;
+    min-height: 295px;
+}
+
+.form-section {
+    background-color: #eaeef0;
+    color: #254c65;
+    display: flex;
+    flex-direction: column;
+}
+.contact-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.submit-btn {
+    background-color: #254c65;
+    border-radius: 25px;
+    align-items: center;
+    justify-self: center;
+}
+fieldset div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

@@ -1,0 +1,114 @@
+/* 
+
+    Colour Palette
+
+    Darkest – #07182E
+    Columns – #132945
+    Accent  – #29D8BE
+    Text    – #CBD6F5
+    Grey    – #6E7997
+    White   - #ffffff
+
+    Fonts
+
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+
+    Layout Grid
+
+    Row Height is 16px.
+    Column Width is 296px.
+    Vertical Gutters are 18px.
+
+*/
+
+body {
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* *** Navigation ***  */
+/* a {
+
+}
+
+a:link,  a:visited {
+    background-color:  ;
+    color:  ;
+}
+
+a:hover, a:active {
+    background-color:  ;
+    color:  ;
+} */
+
+/** Typography*/
+h1,
+h2 {
+    color: blue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+/*utility styles*/
+
+header,
+footer {
+    line-height: 5rem;
+    background-color: dodgerblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+header,
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-deck {
+    padding: 0 5%;
+}
+
+@media screen and (min-width: 576px) {
+    .cards-deck {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        width: 32%;
+    }
+    .card-deck .card {
+        width: 64%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .cards-deck > .card section {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cards-deck {
+        width: 80%;
+        margin: 1% auto;
+    }
+}

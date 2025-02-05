@@ -1,0 +1,14 @@
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/bin/Debug/net8.0/hexagon
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/bin/Debug/net8.0/hexagon.deps.json
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/bin/Debug/net8.0/hexagon.runtimeconfig.json
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/bin/Debug/net8.0/hexagon.dll
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/bin/Debug/net8.0/hexagon.pdb
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.AssemblyInfoInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.AssemblyInfo.cs
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.csproj.CoreCompileInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.dll
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/refint/hexagon.dll
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.pdb
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/hexagon.genruntimeconfig.cache
+/home/heren/Desktop/DMIT/CPSC1012/hexagon/obj/Debug/net8.0/ref/hexagon.dll

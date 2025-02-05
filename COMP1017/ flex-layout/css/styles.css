@@ -1,0 +1,70 @@
+body {
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    font-size: 25px;
+}
+/* use only ONE flex container to acheive layout */
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+section {
+    border: solid #545454 2px;
+    padding: 12px;
+}
+
+/* my calculation for first row
+step1 : calculate the second row to obtain each width of (section + padding + border)
+       960  - 36 ( gutter)  / 3 = 308  px
+result :308px 
+ -> row -1 section  width = 308 px - (12 * 2)  - ( 2 * 2)=  280px  ; I minus padding and border
+  -> row -2 section  width  + padding + border  = 308 px * 2   + 18 = 634
+   -> row - 2 section width only =  634 - 12 - 12 - 2 - 2 = 606px
+         */
+
+.row-1-1 {
+    /* (960-18 * 2 -12 * 6 - 2 * 6) / 3 * 1  or 308 px - 4 - 24*/
+
+    width: 280px;
+}
+.row-1-2 {
+    /* 308 *  2  + 18  = 634 ( include padding and border) -> 634 - 4 - 24 = 606px*/
+
+    width: 606px;
+}
+
+.row-2-1,
+.row-2-2,
+.row-2-3 {
+    /* (960-18 * 2 -12 * 6 - 2 * 6) / 3 * 1 */
+    width: 280px;
+}
+.row-3 {
+    /* (960-12 * 2 - 2 * 2) */
+    width: 932px;
+}
+/* Calculate and specify the widths of each section. Calculations MUST be shown! 
+
+
+/* First row with two unequal columns */
+
+/* Second row with three equal columns */
+
+/* Full-width third row */

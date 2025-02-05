@@ -1,0 +1,111 @@
+/* 
+
+    Colour Palette
+
+    Darkest – #07182E
+    Columns – #132945
+    Accent  – #29D8BE
+    Text    – #CBD6F5
+    Grey    – #6E7997
+    White   - #ffffff
+
+    Fonts
+
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+
+    Layout Grid
+
+    Row Height is 16px.
+    Column Width is 296px.
+    Vertical Gutters are 18px.
+
+*/
+
+body {
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* *** Navigation ***  */
+/* a {
+
+}
+
+a:link,  a:visited {
+    background-color:  ;
+    color:  ;
+}
+
+a:hover, a:active {
+    background-color:  ;
+    color:  ;
+} */
+
+/** Typography*/
+h1,
+h2 {
+    color: blue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+header,
+footer {
+    background-color: dodgerblue;
+    color: aliceblue;
+    text-align: center;
+    line-height: 5rem;
+}
+
+header,
+section,
+footer,
+h2,
+.image-container {
+    margin-bottom: 2rem;
+}
+section {
+    padding: 0 5%;
+}
+
+/* Media Queries*/
+@media screen and (min-width: 700px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    section h2 {
+        width: 100%;
+    }
+    .image-container {
+        width: 48%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .image-container {
+        width: 24%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    section {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

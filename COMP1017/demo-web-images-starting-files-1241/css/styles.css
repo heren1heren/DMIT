@@ -1,0 +1,46 @@
+body {
+    font-size: 100%;
+    /* associate one font family to the body element. */
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* TODO - Typography */
+h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+header p {
+    color: #ece9ec;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* h2 plz! */
+h2 {
+}
+/* End Typography */
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    background-color: #92bebf;
+}
+
+header div {
+    padding: 70px 51px 214px 50px;
+}
+
+/* Section 1 */
+.essence {
+    background-color: #fffbeb;
+    padding: 60px 131px 60px 30px;
+    gap: 24px;
+}

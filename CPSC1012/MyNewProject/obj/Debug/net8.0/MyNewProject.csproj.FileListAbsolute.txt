@@ -1,0 +1,14 @@
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/bin/Debug/net8.0/MyNewProject
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/bin/Debug/net8.0/MyNewProject.deps.json
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/bin/Debug/net8.0/MyNewProject.runtimeconfig.json
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/bin/Debug/net8.0/MyNewProject.dll
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/bin/Debug/net8.0/MyNewProject.pdb
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.AssemblyInfoInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.AssemblyInfo.cs
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.csproj.CoreCompileInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.dll
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/refint/MyNewProject.dll
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.pdb
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/MyNewProject.genruntimeconfig.cache
+/home/heren/Desktop/DMIT/CPSC1012/MyNewProject/obj/Debug/net8.0/ref/MyNewProject.dll

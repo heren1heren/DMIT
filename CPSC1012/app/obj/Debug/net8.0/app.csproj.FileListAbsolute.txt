@@ -1,0 +1,14 @@
+/home/heren/DMIT/CPSC1012/app/bin/Debug/net8.0/app
+/home/heren/DMIT/CPSC1012/app/bin/Debug/net8.0/app.deps.json
+/home/heren/DMIT/CPSC1012/app/bin/Debug/net8.0/app.runtimeconfig.json
+/home/heren/DMIT/CPSC1012/app/bin/Debug/net8.0/app.dll
+/home/heren/DMIT/CPSC1012/app/bin/Debug/net8.0/app.pdb
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.AssemblyInfoInputs.cache
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.AssemblyInfo.cs
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.csproj.CoreCompileInputs.cache
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.dll
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/refint/app.dll
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.pdb
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/app.genruntimeconfig.cache
+/home/heren/DMIT/CPSC1012/app/obj/Debug/net8.0/ref/app.dll

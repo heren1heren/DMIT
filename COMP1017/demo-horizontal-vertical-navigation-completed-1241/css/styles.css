@@ -1,0 +1,179 @@
+/* google fonts 
+ 
+
+Rethink - Use a value from 400 to 800
+  font-family: "Rethink Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  Righteous
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+*/
+
+body {
+    font-size: 100%;
+    background-color: #c08d62;
+    font-family: "Rethink Sans", sans-serif;
+    font-style: normal;
+    background-image: url(../img/bg-tile.png);
+    /* background-repeat properties */
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+}
+
+/* ***** BACKGROUND POSITION PROPERTY ***** */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position */
+
+/* 
+    Left & Right define the X coordinates. Top & Bottom define the Y coordinates:
+
+    background-position: 75px 300px;
+
+    background-position: left top;
+    background-position: left bottom;
+    background-position: right top;
+    background-position: right bottom;
+    background-position: left center;
+    background-position: right center;
+    background-position: top center;
+    background-position: bottom center;
+    */
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a,
+img {
+    display: inline-block;
+    /* display: inline-block allows the top and bottom margins/paddings to be respected (applied) */
+}
+
+h1 a {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+h1 a:hover {
+    color: #efdbaf;
+}
+
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-size: 44px;
+    color: #98421f;
+    font-weight: 800;
+    padding-top: 19px;
+}
+
+header nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav a:hover {
+    color: #efdbaf;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 32px 10px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+}
+.flex-container,
+.icons,
+.logo,
+header ul {
+    display: flex;
+    align-items: center;
+}
+.flex-container {
+    color: white;
+}
+.icons {
+    gap: 25px;
+}
+
+.logo {
+    gap: 20px;
+}
+
+header nav ul {
+    gap: 25px;
+}
+
+/** vertical navigation */
+
+section {
+    /* add a background color so if the image doesn't load you'll be able to see the text */
+    background-color: orangered;
+    background-image: url(../img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    /* Background Size Property */
+    background-size: contain;
+    background-size: cover;
+
+    /* 
+    CONTAIN: Scales the image as large as possible within the container without cropping or stretching the image.
+    
+    COVER: Scales the image (while preserving its ratio) to the smallest possible size to fill the container (that is: both its height and width completely cover the container), leaving no empty space. f the proportions of the background differ from the element, the image is cropped either vertically or horizontally. */
+
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+}
+
+.veil {
+    /* creating an opacity using the RGBA color palette */
+    background-color: rgba(192, 141, 98, 0.2);
+    padding-left: 48px;
+}
+
+main section {
+    padding-left: 494px;
+}
+
+.vertical-menu a {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2.5;
+    color: #98421f;
+}
+
+.vertical-menu a:hover {
+    padding-left: 40px;
+    color: #000000;
+}
+
+.btn a {
+    font-size: 18px;
+    color: #98421f;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Righteous", sans-serif;
+    background-color: #ffffff;
+    border-radius: 13px;
+    padding: 4px 9px;
+    margin: 16px 0 86px 0;
+}
+
+.btn a:hover {
+    background-color: #98421f;
+    color: #ffffff;
+}

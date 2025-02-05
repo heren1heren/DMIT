@@ -1,0 +1,50 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana;
+    color: #111;
+}
+h1 {
+    padding: 48px;
+    color: #696969;
+    border-bottom: 1px solid #dedede;
+}
+h3 {
+    text-decoration: underline;
+}
+section {
+    width: 800px;
+    margin: 48px;
+    padding: 36px;
+}
+p {
+    font-size: 16px;
+    font-family: Georgia, serif;
+}
+.shot-type {
+    border-top: 24px solid rgba(0, 0, 0, 0.13);
+    background-color: #ededed;
+}
+section h3 {
+    padding-bottom: 8px;
+}
+aside {
+    width: 600px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #ededed;
+    padding: 24px;
+    font-family: "Gill Sans";
+    font-style: italic;
+}
+aside p {
+    font-size: 14px;
+    color: #777;
+}

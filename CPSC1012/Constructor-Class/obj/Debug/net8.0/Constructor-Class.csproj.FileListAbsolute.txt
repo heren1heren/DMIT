@@ -1,0 +1,4 @@
+/home/heren/Desktop/DMIT/CPSC1012/Constructor-Class/obj/Debug/net8.0/Constructor-Class.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/Desktop/DMIT/CPSC1012/Constructor-Class/obj/Debug/net8.0/Constructor-Class.AssemblyInfoInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/Constructor-Class/obj/Debug/net8.0/Constructor-Class.AssemblyInfo.cs
+/home/heren/Desktop/DMIT/CPSC1012/Constructor-Class/obj/Debug/net8.0/Constructor-Class.csproj.CoreCompileInputs.cache

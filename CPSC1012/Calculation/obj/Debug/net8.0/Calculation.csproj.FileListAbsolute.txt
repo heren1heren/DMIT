@@ -1,0 +1,14 @@
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/bin/Debug/net8.0/Calculation
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/bin/Debug/net8.0/Calculation.deps.json
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/bin/Debug/net8.0/Calculation.runtimeconfig.json
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/bin/Debug/net8.0/Calculation.dll
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/bin/Debug/net8.0/Calculation.pdb
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.GeneratedMSBuildEditorConfig.editorconfig
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.AssemblyInfoInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.AssemblyInfo.cs
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.csproj.CoreCompileInputs.cache
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.dll
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/refint/Calculation.dll
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.pdb
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/Calculation.genruntimeconfig.cache
+/home/heren/Desktop/DMIT/CPSC1012/Calculation/obj/Debug/net8.0/ref/Calculation.dll

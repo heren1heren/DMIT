@@ -1,0 +1,48 @@
+/*! there are a lot of important things in this lesson
+regarding responsive design in css */
+html,
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    /* height: auto; */
+}
+header,
+body > div {
+    max-width: 80%;
+    margin: 0 auto;
+}
+body > div {
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+}
+header,
+body > div {
+    margin-bottom: 24px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+/* typography */
+h1 {
+    text-align: center;
+    border: solid black 10px;
+    font-size: 64px;
+}
+section p {
+    max-width: 80ch;
+}
+span {
+    text-align: right;
+}
+/* .content-box {
+    box-sizing: content-box;
+} */
