@@ -53,14 +53,10 @@ a:hover, a:active {
     color:  ;
 } */
 
-
 /** Typography*/
 h1,
 h2 {
     color: blue;
     font-family: sans-serif;
     text-transform: uppercase;
-}
-
-div h1 {
 }

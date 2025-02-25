@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Images Final</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Cherisse Rogers" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- The <picture> HTML element contains zero or more <source> elements and one <img> element to offer alternative versions of an image for different display/device scenarios. -->
+      <!-- The <picture> HTML element contains zero or more <source> elements and one <img> element to offer alternative versions of an image for different display/device scenarios. -->
+
+      <picture>
+        <source
+          srcset="img/misty-valley-widescreen.avif"
+          media="(min-width:1024px)"
+        />
+        <source
+          srcset="img/misty-valley-mediumscreen.avif"
+          media="(min-width:576px)"
+        />
+        <img src="img/misty-valley-square.avif" alt="#" />
+      </picture>
+      <section>
+        <h1>Living Slow</h1>
+        <p>
+          Step into a world where the rolling green fields stretch endlessly
+          into the horizon, shrouded in a gentle morning mist. Let the serene
+          landscapes and the unhurried rhythm of my little rural life inspire a
+          transformation in your own daily life.
+        </p>
+        <a href="#latest" class="btn">Let's Explore</a>
+      </section>
+    </header>
+
+    <div class="card-deck">
+      <div class="card">
+        <div class="image-container">
+          <img src="img/flowers.avif" alt="#" />
+        </div>
+        <section>
+          <h3>Pastoral Landscapes</h3>
+          <p>
+            I always find peace in the simplicity and calm of rural living, like
+            watching the sheep graze peacefully in the hills.
+          </p>
+          <a href="#">Read More &rarr;</a>
+        </section>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <img src="img/food.avif" alt="#" />
+        </div>
+        <section>
+          <h3>Garden-to-Table</h3>
+          <p>
+            This is my little slice of culinary paradise, always changing
+            depending upon which vegetables and herbs are growing in the garden.
+          </p>
+          <a href="#">Read More &rarr;</a>
+        </section>
+      </div>
+
+      <div class="card">
+        <div class="image-container">
+          <picture>
+            <source srcset="img/flowers.avif" media="(min-width:1024px)" />
+            <source srcset="img/food.avif" media="(min-width:576px)" />
+            <img src="img/sheep.avif" alt="#" />
+
+            />
+          </picture>
+        </div>
+        <section>
+          <h3>Cheerful Little Blooms</h3>
+          <p>
+            Not long ago, I redesigned a new rose bed behind my greenhouse. The
+            area now produces roses that flower from spring to late autumn.
+          </p>
+          <a href="#">Read More &rarr;</a>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <p>All content utilized for academic purposes</p>
+    </footer>
+  </body>
+</html>
