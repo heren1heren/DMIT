@@ -1,0 +1,425 @@
+/* "Chronicle font" doesn't work */
+@font-face {
+    font-family: "Chronicle Display";
+    src:
+        url("chronicleDisplay-font/ChronicleDisplay-Black.woff2") format("woff2"),
+        url("chronicleDisplay-font/ChronicleDisplay-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chronicle Display";
+    src:
+        url("../chronicleDisplay-font/ChronicleDisplay-Roman.woff2") format("woff2"),
+        url("../chronicleDisplay-font/ChronicleDisplay-Roman.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chronicle Display";
+    src:
+        url("../chronicleDisplay-font/ChronicleDisplay-LightItalic.woff2") format("woff2"),
+        url("../chronicleDisplay-font/ChronicleDisplay-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Chronicle Display Semi";
+    src:
+        url("../chronicleDisplay-font/ChronicleDisplay-Semi.woff2") format("woff2"),
+        url("../chronicleDisplay-font/ChronicleDisplay-Semi.woff2") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --box-shadow: 0 2px 8px 4px rgba(0, 0, 0, 0.15);
+    --off-black: #111111;
+    --red: #9f001a;
+}
+
+body {
+    font-family: "Chronicle Display", sans-serif;
+    font-weight: normal;
+}
+hr {
+    width: 100%;
+    background-color: gray;
+    height: 1px;
+    margin: 0;
+}
+/* Utility Classes */
+
+.btn,
+.menu-btn,
+a,
+.shop-toggle-btn,
+.icon,
+.get-started-btn,
+.dive-in-btn,
+.customise-btn,
+footer li:not(.li-title) {
+    cursor: pointer;
+}
+.btn {
+    background-color: var(--off-black);
+    color: #fff;
+    transition: background-color 0.4s ease;
+}
+
+.btn:hover {
+    background-color: var(--red);
+    color: #fff;
+}
+
+nav {
+    transition:
+        max-height 0.5s ease,
+        opacity 0.5s ease; /* Duration + easing function */
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+}
+.visible {
+    opacity: 1;
+    visibility: visible;
+    max-height: 350px;
+}
+/* Typography */
+.title {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+h2 {
+    font-family: "Times New Roman", Times, serif;
+
+    font-weight: bolder;
+}
+p {
+    font-size: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+
+a:hover:not([class]) {
+    text-decoration: underline;
+}
+
+.card-2 {
+    position: relative;
+}
+.our-pick-tag {
+    position: absolute;
+    background-color: #9f001a;
+    color: white;
+    border-radius: 0.9em;
+    padding: 0.5rem 1rem;
+    right: -4%;
+    top: -2%;
+}
+/* Universal Styles */
+
+body {
+    color: var(--off-black);
+    line-height: 1.5;
+}
+
+.icon {
+    width: 2rem;
+}
+.icon + p {
+    font-size: 1rem;
+}
+.menu-btn {
+    height: 2rem;
+    width: 2rem;
+}
+.search-account-cart-container {
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+.search-link,
+.account-link,
+.cart-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-tartan-event-contact-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.shop-toggle-btn + ol {
+    margin-left: 1rem;
+}
+
+.shop-now-btn {
+    width: 240px;
+    height: 72px;
+    font-size: 1.5rem;
+    border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dive-in-btn {
+    width: 240px;
+    height: 72px;
+    font-size: 1.5rem;
+    border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+}
+.get-started-btn {
+    background: #111111;
+    color: white;
+    width: 240px;
+    height: 72px;
+    font-size: 1.5rem;
+    border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    min-width: 320px;
+    min-height: 615px;
+    border: solid gray 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}
+.card-title {
+    background-color: black;
+    color: white;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-price {
+    font-size: 2rem;
+    margin: 1rem;
+}
+.customise-btn {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 240px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 0.2em;
+}
+.li-title {
+    font-size: 1.5rem;
+}
+
+/*layout*/
+.title-menu-icon-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.section-1-1 {
+    position: relative;
+}
+.section-1-1 img {
+    width: 100%;
+}
+.section-1-1 h1 {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+    color: white;
+}
+.section-1-2 {
+    background-color: #9f001a;
+    padding: 1rem 1rem 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.section-1-2 h1 {
+    margin-left: 1rem;
+}
+.section-1-2 .btn {
+    margin-left: auto;
+}
+
+.section-2 {
+    padding: 4rem 0.5rem;
+}
+.section-2 .section-2-contents-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.section-3 {
+    padding: 4rem 1rem;
+    background-color: black;
+    color: white;
+}
+.section-3-contents-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.section-4 {
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card-deck {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 4rem 1rem;
+}
+footer .about-section {
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+footer .contacts-group {
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.get-in-touch-section {
+    margin-bottom: 2rem;
+}
+
+/*image*/
+.section-2-images-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.image-1 {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 205px;
+    height: 154px;
+}
+.image-2 {
+    position: absolute;
+    width: 205px;
+    height: 154px;
+    bottom: 10%; /* Adjust as needed */
+    right: -20%;
+}
+
+@media screen and (min-width: 816px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .section-1-1 h1 {
+        position: absolute;
+        left: 5%;
+        top: 90%;
+        color: white;
+        font-size: 3rem;
+    }
+    .section-1-2 h1 {
+        font-size: 3rem;
+        margin-left: 1.5rem;
+    }
+    .section-1-2 .shop-now-btn {
+        margin: 0 auto;
+    }
+    .section-2 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-2-images-container {
+        width: 500px;
+        height: 500px;
+    }
+    .section-2-images-container img {
+        width: 274px;
+        height: 274px;
+    }
+    .image-1 {
+        left: 25%;
+    }
+    .section-3 {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0;
+    }
+    .section-3 img {
+        height: 470px;
+        width: 40%;
+    }
+    .section-3-contents-container {
+        width: 60%;
+        margin: 3rem 0 3rem 3rem;
+    }
+    .section-4 {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .section-4 h1 {
+        text-align: center;
+    }
+    .footer-links-container {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .footer-links-container ol {
+        width: 48%;
+    }
+}
