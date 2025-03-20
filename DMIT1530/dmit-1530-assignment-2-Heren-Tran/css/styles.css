@@ -56,7 +56,7 @@ hr {
     margin: 0;
 }
 /* Utility Classes */
-
+.title,
 .btn,
 .menu-btn,
 a,
@@ -74,7 +74,7 @@ footer li:not(.li-title) {
     transition: background-color 0.4s ease;
 }
 
-.btn:hover {
+.btn:not(.shop-now-btn):hover {
     background-color: var(--red);
     color: #fff;
 }
@@ -84,7 +84,39 @@ nav {
         max-height 0.5s ease,
         opacity 0.5s ease; /* Duration + easing function */
 }
-
+ol.desktop-link-list > li:first-of-type {
+    display: flex;
+    flex-direction: row;
+}
+nav ol.desktop-link-list {
+    margin-right: auto;
+}
+.desktop-search-account-cart-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.dropdown-icon {
+    height: 1.3rem;
+    width: 1.3rem;
+}
+.desktop-link-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.desktop-link-list-hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+}
+.desktop-search-account-card-container-hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+}
 .hidden {
     visibility: hidden;
     opacity: 0;
@@ -93,7 +125,7 @@ nav {
 .visible {
     opacity: 1;
     visibility: visible;
-    max-height: 350px;
+    max-height: 22rem;
 }
 /* Typography */
 .title {
@@ -113,14 +145,14 @@ h2 {
 p {
     font-size: 1.5rem;
 }
-a {
-    text-decoration: none;
-}
 
-a:hover:not([class]) {
+a:hover {
     text-decoration: underline;
 }
-
+.icon + p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
 .card-2 {
     position: relative;
 }
@@ -147,6 +179,8 @@ body {
     font-size: 1rem;
 }
 .menu-btn {
+    /* margin-left: auto;
+    margin-right: -7rem; */
     height: 2rem;
     width: 2rem;
 }
@@ -173,8 +207,8 @@ body {
 }
 
 .shop-now-btn {
-    width: 240px;
-    height: 72px;
+    width: 15rem;
+    height: 4.5rem;
     font-size: 1.5rem;
     border-radius: 0.2em;
     display: flex;
@@ -183,8 +217,8 @@ body {
     align-items: center;
 }
 .dive-in-btn {
-    width: 240px;
-    height: 72px;
+    width: 15rem;
+    height: 4.5rem;
     font-size: 1.5rem;
     border-radius: 0.2em;
     display: flex;
@@ -197,8 +231,8 @@ body {
 .get-started-btn {
     background: #111111;
     color: white;
-    width: 240px;
-    height: 72px;
+    width: 15rem;
+    height: 4.5rem;
     font-size: 1.5rem;
     border-radius: 0.2em;
     display: flex;
@@ -207,8 +241,8 @@ body {
     align-items: center;
 }
 .card {
-    min-width: 320px;
-    min-height: 615px;
+    min-width: 20rem;
+    min-height: 38.5rem;
     border: solid gray 1px;
     text-align: center;
     display: flex;
@@ -233,8 +267,8 @@ body {
     background-color: black;
     color: white;
     font-size: 1.5rem;
-    width: 240px;
-    height: 72px;
+    width: 15rem;
+    height: 4.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,13 +286,18 @@ body {
     justify-content: space-between;
     padding: 1rem;
 }
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .section-1-1 {
     position: relative;
 }
 .section-1-1 img {
     width: 100%;
 }
-.section-1-1 h1 {
+.section-1-1 h2 {
     position: absolute;
     left: 5%;
     top: 80%;
@@ -271,7 +310,7 @@ body {
     flex-direction: column;
     gap: 2rem;
 }
-.section-1-2 h1 {
+.section-1-2 h2 {
     margin-left: 1rem;
 }
 .section-1-2 .btn {
@@ -298,6 +337,9 @@ body {
     gap: 2rem;
 }
 .section-4 {
+    padding: 0 2rem 4rem 2rem;
+}
+.section-4 .celebrate-container {
     padding: 4rem 1rem;
     display: flex;
     flex-direction: column;
@@ -343,37 +385,45 @@ footer .contacts-group {
 /*image*/
 .section-2-images-container {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
 }
 
 .image-1 {
     position: absolute;
     top: 0;
     left: 10%;
-    width: 205px;
-    height: 154px;
+    width: 12.8rem;
+    height: 9.6rem;
 }
 .image-2 {
     position: absolute;
-    width: 205px;
-    height: 154px;
+    width: 12.8rem;
+    height: 9.6rem;
     bottom: 10%; /* Adjust as needed */
     right: -20%;
 }
 
 @media screen and (min-width: 816px) {
-    h1 {
+    .title-menu-icon-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    h2 {
         font-size: 3rem;
     }
-    .section-1-1 h1 {
+
+    .section-1-1 h2 {
         position: absolute;
         left: 5%;
         top: 90%;
         color: white;
         font-size: 3rem;
     }
-    .section-1-2 h1 {
+    .section-1-2 {
+        padding: 2rem;
+    }
+    .section-1-2 h2 {
         font-size: 3rem;
         margin-left: 1.5rem;
     }
@@ -385,12 +435,12 @@ footer .contacts-group {
         margin: 0 auto;
     }
     .section-2-images-container {
-        width: 500px;
-        height: 500px;
+        width: 31.25rem;
+        height: 31.25rem;
     }
     .section-2-images-container img {
-        width: 274px;
-        height: 274px;
+        width: 17.125rem;
+        height: 17.125rem;
     }
     .image-1 {
         left: 25%;
@@ -401,7 +451,7 @@ footer .contacts-group {
         padding: 0;
     }
     .section-3 img {
-        height: 470px;
+        height: 30rem;
         width: 40%;
     }
     .section-3-contents-container {
@@ -412,7 +462,7 @@ footer .contacts-group {
         width: 80%;
         margin: 0 auto;
     }
-    .section-4 h1 {
+    .section-4 h2 {
         text-align: center;
     }
     .footer-links-container {
@@ -421,5 +471,85 @@ footer .contacts-group {
     }
     .footer-links-container ol {
         width: 48%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .section-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-2-images-container {
+        width: 48%;
+    }
+    .section-2-images-container img {
+        width: 18.25rem;
+        height: 27.5rem;
+    }
+    .image-1 {
+        left: -10%;
+        top: 10%;
+    }
+    .image-2 {
+        bottom: -50%;
+        right: 2%;
+    }
+    .section-2-contents-container {
+        width: 40%;
+    }
+    .celebrate-container {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    .card-deck {
+        flex-flow: row;
+    }
+    /* i don't even know how to make the second item bigger so I try this and it work */
+    .card-1,
+    .card-3 {
+        align-self: stretch; /* Stretch this item */
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .customise-btn {
+        margin-top: auto;
+    }
+    footer .contacts-group {
+        flex-direction: row;
+    }
+    footer .footer-links-container {
+        flex-flow: row;
+    }
+    .menu-btn {
+        visibility: hidden;
+    }
+    .desktop-links-list-visible {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        max-height: 100%;
+    }
+    .desktop-search-account-card-container-visible {
+        display: flex;
+        visibility: visible;
+        opacity: 1;
+        max-height: 100%;
+    }
+    header li {
+        cursor: pointer;
+    }
+    .shop-drop-down-btn {
+        position: relative;
+    }
+    .shop-drop-down-menu {
+        position: absolute;
+        background: white;
+        z-index: 100;
+        width: 9rem;
+        top: 100%;
+        left: 30%;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
     }
 }
