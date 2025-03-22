@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>toggle search bar</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Heren Tran" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <section>
+          <h1 class="sr-only"></h1>
+          <h2><a href="index.html"></a></h2>
+        </section>
+        <button class="toggle-btn">
+          <svg
+            viewBox="0 0 1024 1024"
+            class="prefix__icon"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M448 768a320 320 0 1 0 0-640 320 320 0 0 0 0 640m297.3-77L960 905.6l-54.3 54.3L691 745.3a384 384 0 1 1 54.3-54.3"
+            />
+          </svg>
+        </button>
+        <ol class="menu flexed collapsed">
+          <li>label 01</li>
+          <li>label 01</li>
+          <li>label 01</li>
+          <li>label 01</li>
+        </ol>
+
+        <form action="#" method="get" role="search">
+          <div class="flexed">
+            <label for="search-bar"></label>
+            <input
+              type="search"
+              id="search-bar"
+              name="search-bar"
+              placeholder="search term"
+            />
+
+            <input type="submit" id="submit-btn" name="submit" value="search" />
+          </div>
+        </form>
+      </nav>
+    </header>
+    <section>
+      <h2>toggle search</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum labore
+        nemo repellat, ut molestias vero vitae nulla iure assumenda inventore
+        aliquid possimus dolorum a, nam, in quia facere iste fuga?
+      </p>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum labore
+        nemo repellat, ut molestias vero vitae nulla iure assumenda inventore
+        aliquid possimus dolorum a, nam, in quia facere iste fuga?
+      </p>
+    </section>
+    <footer>
+      <p>This website is an academic exercise.</p>
+    </footer>
+  </body>
+</html>

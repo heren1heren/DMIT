@@ -53,6 +53,8 @@ footer {
 
 .main {
     padding: 5%;
+    max-width: 80ch;
+    padding: 10%;
 }
 
 .main h2,
@@ -81,23 +83,53 @@ header button svg {
     width: 2rem;
     fill: aliceblue;
 }
+header form {
+    background-color: dodgerblue;
+    position: absolute;
+    left: 0;
+    top: 13rem;
+    width: 100%;
+    padding: 3rem 1rem;
+    gap: 0;
+}
+header form input {
+    border: none;
+    line-height: 1rem;
+    padding: 0.5rem;
+}
+header form input[type="search"] {
+    width: 82%;
+    border-radius: 4px 0 0 4px;
+}
+header form input[type="submit"] {
+    border-radius: 0 4px 4px 0;
+    border: solid #e9e9ed 1.5px;
+    border-left: none;
+    transition: background-color 1s;
+}
+header form input[type="submit"]:hover {
+    background-color: aliceblue;
+    color: aqua;
+}
 
 .toggle-btn {
-    background-color: dodgerblue;
+    background-color: red;
     border-radius: 4px;
     display: inline-block;
     padding: 0.5rem 1rem;
-    transition: all 0.3s;
+    transition: all 2s;
 }
 
 .toggle-btn:focus,
 .toggle-btn:hover {
-    background-color: dodgerblue;
+    background-color: green;
     color: aliceblue;
 }
 
 /* Navigation */
-
+nav {
+    position: relative;
+}
 /* Delete next class */
 /*
 .toggle-btn{

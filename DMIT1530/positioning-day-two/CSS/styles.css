@@ -1,0 +1,213 @@
+/* 
+
+    Colour Palette
+
+    Darkest – #07182E
+    Columns – #132945
+    Accent  – #29D8BE
+    Text    – #CBD6F5
+    Grey    – #6E7997
+    White   - #ffffff
+
+    Fonts
+
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen Mono', monospace;
+
+    Layout Grid
+
+    Row Height is 16px.
+    Column Width is 296px.
+    Vertical Gutters are 18px.
+
+*/
+
+body {
+    font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* *** Navigation ***  */
+/* a {
+
+}
+
+a:link,  a:visited {
+    background-color:  ;
+    color:  ;
+}
+
+a:hover, a:active {
+    background-color:  ;
+    color:  ;
+} */
+
+/** Typography*/
+h1,
+h2 {
+    color: blue;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+/*
+    Colour Palette
+
+    #9A9B73  Moss-Green
+    #E7F9A9  Mindaro
+    #614051  Eggplant
+
+    Fonts
+    font-family:
+*/
+
+/* Universal Styles */
+/* This sets the font size at the highest level of the dom (the root). 16px = 1rem - based on the default font size - 1rem = 16, 2rem = 32, 3 rem = 48, 4 rem = 64, 72, 88, etc */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #614051;
+}
+
+.sr-only {
+    /*  Stands for 'Screen-reader-only' */
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    visibility: hidden;
+}
+
+/* Typographical Styles */
+h2 {
+    font-size: 2rem; /* Base style of the Boilerplate */
+}
+
+/* Utility Styles */
+header {
+    background-color: #e7f9a9;
+    box-shadow: 0px 5px 10px #614051;
+    margin-bottom: 100px;
+    padding: 2rem 3rem;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 svg {
+    width: 48px;
+    vertical-align: bottom;
+}
+
+h2 svg path {
+    fill: #614051;
+}
+
+.menu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-right: 2rem;
+}
+
+/* HTML elements are positioned static by default. */
+/* Static positioned elements are not affected by the top, bottom, left, and right properties. */
+
+.rotator {
+    /* An element with position: relative; is positioned relative to its normal position. (It's parent container) */
+    position: relative;
+    /* height: 575px; */
+}
+
+.rotator h2 {
+    /* An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).  However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.  Note: Absolute positioned elements are removed from the normal flow, and can overlap elements. */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    font-size: 2rem;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section p {
+    max-width: 80ch;
+    margin-bottom: 1.5rem;
+}
+
+.chat svg {
+    fill: #614051;
+    /* An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.*/
+    position: fixed;
+    bottom: 15%;
+    right: 2%;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #e7f9a9;
+    text-align: center;
+    line-height: 5rem;
+    font-weight: bold;
+    /* An element with position: sticky; is positioned based on the user's scroll position. */
+    position: sticky;
+    bottom: 0;
+}
+
+/* Navigation */
+a {
+    font-size: 1.5rem;
+}
+
+a:link,
+a:visited {
+    color: #614051;
+}
+a:focus,
+a:hover,
+a:active {
+    color: #9a9b73;
+}
+
+/* Media queries allow you to apply CSS styles depending on a device's media type (such as print vs. screen) or other features or characteristics such as screen resolution or orientation, aspect ratio, browser viewport  */
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+    .rotator h2 {
+        font-size: calc(2rem + 1vw);
+    }
+
+    .menu {
+        flex-flow: row wrap;
+        width: 65%;
+        justify-content: flex-end;
+    }
+}
